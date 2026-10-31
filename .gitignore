@@ -1,0 +1,30 @@
+# --- Editor Autosaves & Backups ---
+*.asv
+*.m~
+*.autosave
+*.bak
+
+# --- Simulink Recovery Files ---
+*.slx.r*
+*.mdl.r*
+
+# --- Compiled & Obscured Binaries ---
+# Compiled MEX binaries (all architectures)
+*.mex*
+# Content-obscured executable files
+*.p
+
+# --- Code Generation and Cache Folders ---
+slprj/
+sccprj/
+codegen/
+*.slxc
+
+# --- Packaging and Deployable Archives ---
+*.mlappinstall
+*.mltbx
+*.ctf
+
+# --- Miscellaneous Systems ---
+helpsearch*/
+.MATLABDriveTag
